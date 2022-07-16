@@ -1,0 +1,58 @@
+.body{
+    padding: 16px;
+}
+.space{
+    margin-bottom: 32px;
+}
+.t{
+  margin-left: 29px
+}
+table, th, td {
+    border: 1px solid black;
+    
+  }
+  .border{
+    border: none !important;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+
+  .dot {
+    height: 14px;
+    width: 14px;
+    background-color: green;
+    border-radius: 50%;
+    margin-bottom: 0px;
+    
+  }
+
+  .custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+  .custom-file-input::before {
+    content: 'Change';
+    display: inline-block;
+    background: linear-gradient(top, #f9f9f9, #e3e3e3);
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-weight: 700;
+    font-size: 10pt;
+  }
+  .custom-file-input:hover::before {
+    border-color: black;
+  }
+
+  .syncdr{
+    margin-top: 27px;
+    margin-left: 27px;
+    margin-right: 27px;
+  }
+
