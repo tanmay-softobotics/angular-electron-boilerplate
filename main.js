@@ -7,9 +7,13 @@ function createWindow() {
   win = new BrowserWindow({
     width: 600,
     height: 600,
+    resizable: false,
     backgroundColor: "#ffffff",
     icon: `file://${__dirname}/dist/assets/logo.png`,
   });
+
+  win.setResizable(false);
+
 
   win.loadURL(`file://${__dirname}/dist/index.html`);
 
@@ -39,3 +43,10 @@ app.on("activate", function () {
     createWindow();
   }
 });
+
+// const mainWindow = new BrowserWindow({
+//   width: 1600,
+//   height: 900,
+  
+// });
+
